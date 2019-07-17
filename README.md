@@ -1,4 +1,4 @@
-# openMCT-coding-exercise
+# Open MCT Coding Exercise
 
 
 ## Introduction
