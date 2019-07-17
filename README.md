@@ -20,8 +20,8 @@ either or both of the “pwr.v” and “pwr.c” telemetry points. The telemetr
 
 ```
 git clone ​https://github.com/nasa/openmct-tutorial.git 
-git clone ​https://github.com/vgomezgonzalez/openMCT-coding-exercise
 cd openmct-tutorial
+git clone ​https://github.com/vgomezgonzalez/openMCT-coding-exercise
 npm install
 npm start
 ```
