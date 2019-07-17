@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Telemetry Table</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="mt-2 row justify-content-md-center">
+            <div class="col" align="center">
+
+                <input type="checkbox" id="c" onclick="displayC()" checked> pwr.c
+                <br>
+                <input type="checkbox" id="v" onclick="displayV()" checked> pwr.v
+                <br>
+
+            </div>
+        </div>
+        <div class="mt-2 row justify-content-md-center">
+            <div class="col">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr align="center" style="display:table-row;">
+                            <th>ID</th>
+                            <th id="order" style="cursor: pointer;" onclick="updateDir();">Timestamp ↓</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody id="root">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
