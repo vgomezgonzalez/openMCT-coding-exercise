@@ -1,7 +1,7 @@
 const app = document.getElementById('root');
 var direction = "desc";
 var end = Date.now();
-var start = end - 900000;//900000
+var start = end - 900000;
 
 // History pwr.v
 var requestv = new XMLHttpRequest();
